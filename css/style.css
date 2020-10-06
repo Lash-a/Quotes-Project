@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: #333;
+}
+
+.container{
+    max-width: 450px;
+    width: 100%;
+    min-height: 230px;
+    background: #fff;
+    margin: 0 auto;
+    margin-top: 30vh;
+    padding: 50px;
+    border-radius: 30px;
+}
+
+
+.container h2{
+    text-align: center;
+    font-size: 1.6em;
+    margin: 10px;
+}
+
+.quote-author{
+    text-align: end;
+    margin: 30px 10px;
+    font-size: 0.9em;
+}
+
+.buttons a i {
+    font-size: 2em;
+    color: #000;
+}
+
+.buttons a{
+    float: left;
+    font-size: 16.5px;
+    margin: 0 10px;
+}
+.buttons{
+    height: 35px;
+}
+
+#new-quote-generator{
+    float: right;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #fff;
+    text-transform: capitalize;
+    border: 1px solid black;
+    background: #000;
+    width: 100px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .container{
+        box-sizing: border-box;
+        padding: 10px;
+
+    }
+    
+}
